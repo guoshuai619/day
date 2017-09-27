@@ -1,0 +1,151 @@
+@charset "utf-8";
+*{
+  margin:0px;
+  padding:0px;
+  text-decoration:none;
+  box-sizing:border-box;
+  font-size:.14rem;
+  font-style:normal;
+  font-weight:normal;
+  box-sizing:border-box;
+}
+ul,li{
+  list-style:none;
+}
+html{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  font-size:625%;
+}
+img,div,body,html,ul,li,a{
+  -webkit-touch-callout: none;
+}
+input,button{
+  outline:0;
+
+}
+button{
+  cursor:pointer;
+}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+  color: #ccc;
+}
+.wrap,html,body{
+  width:100%;
+  height:100%;
+}
+body{
+  font-size:.32rem;
+}
+.wrap{
+  display:flex;
+  flex-direction:column;
+
+}
+header{
+  position:relative;
+  width:100%;
+  height:1rem;
+  line-height:1rem;
+  padding-left:1rem;
+  font-size:.34rem;
+  color:#fff;
+  background:#393A3F;
+  b{
+    position: absolute;
+    top:0;
+    left:0;
+    width:1rem;
+    height:1rem;
+    font-size:.5rem;
+    text-align:center;
+  }
+}
+section{
+  flex:1;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background:#818D9B;
+}
+.content{
+  width:92%;
+  height:70%;
+  border:1px solid #ccc;
+  background:#fff;
+  border-radius: 5px;
+  .title{
+    width:100%;
+    height:1.8rem;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    margin-top:.5rem;
+    dt{
+      width:3.2rem;
+      height:1.2rem;
+      img{
+        width:100%;
+        height:100%;
+      }
+    }
+    dd{
+      width:3.2rem;
+      height:1.2rem;
+      text-align:center;
+      line-height:.6rem;
+      font-size:.36rem;
+    }
+  }
+  form{
+    width:100%;
+    height:auto;
+    padding:0 15%;
+    .mob,.psd{
+      position: relative;
+      width:100%;
+      height:.7rem;
+      padding-left:.7rem;
+      margin-top:.5rem;
+      label{
+        position: absolute;
+        top:0;
+        left:0;
+        width:.7rem;
+        height:.7rem;
+        padding:.1rem .15rem;
+        img{
+          width:100%;
+          height:100%;
+        }
+      }
+      input{
+        width:100%;
+        height:100%;
+        border:none;
+      }
+    }
+  }
+  button{
+    width:80%;
+    margin-left:10%;
+    margin-top:.7rem;
+    height:.76rem;
+    background:#2FBA77;
+    border:none;
+    border-radius: 4px;
+    color:#fff;
+    font-size:.4rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
